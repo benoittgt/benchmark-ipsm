@@ -1,5 +1,11 @@
 # benchmark-ipsm
 
+# Disclamer
+
+The way this gem measure memory footprint is not correct. See discussion : https://twitter.com/Benoit_Tgt/status/838147610464616449
+
+---
+
 [![Build Status](https://travis-ci.org/benoittgt/benchmark-ipsm.svg?branch=master)](https://travis-ci.org/benoittgt/benchmark-ipsm)
 
 An iterations per second enhancement to Benchmark that includes memory cost, based on [benchmark-ips](https://github.com/evanphx/benchmark-ips/) and the excellent job of [Dotan](https://github.com/jondot) with [benchmark-ipsa](https://github.com/jondot/benchmark-ipsa). 

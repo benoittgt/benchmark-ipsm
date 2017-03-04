@@ -9,7 +9,6 @@ module Benchmark
         block.call(x)
         memory(x)
       }
-
     end
 
     def memory(x)
@@ -25,7 +24,7 @@ module Benchmark
       end
     end
 
-    def rjust(label) #stolen from benchmark-ips
+    def rjust(label)
       label = label.to_s
       if label.size > 20
         "#{label}\n#{' ' * 20}"

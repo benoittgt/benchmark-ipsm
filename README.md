@@ -1,6 +1,8 @@
 # benchmark-ipsm
 
-An iterations per second enhancement to Benchmark that includes memory cost, based on [benchmark-ips](https://github.com/evanphx/benchmark-ips/) and the excellent job of [Dotan](https://github.com/jondot) with[benchmark-ipsa](https://github.com/jondot/benchmark-ipsa). 
+[![Build Status](https://travis-ci.org/benoittgt/benchmark-ipsm.svg?branch=master)](https://travis-ci.org/benoittgt/benchmark-ipsm)
+
+An iterations per second enhancement to Benchmark that includes memory cost, based on [benchmark-ips](https://github.com/evanphx/benchmark-ips/) and the excellent job of [Dotan](https://github.com/jondot) with [benchmark-ipsa](https://github.com/jondot/benchmark-ipsa). 
 
 ## Installation
 
@@ -62,11 +64,11 @@ Running the specs:
 * `bundle install`
 * `bundle exec rake spec`
 
-# Contributing
+## Contributing
 
 Fork, implement, add tests, pull request, get my everlasting thanks and a respectable place here :).
 
-# LICENSE:
+## License
 
 (The MIT License)
 

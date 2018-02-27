@@ -4,4 +4,6 @@ rvm:
   - 2.2.0
   - 2.3.0
   - 2.4.0
+  - 2.5.0
+  - ruby-2.6.0-preview1
 before_install: gem install bundler -v 1.11.2
